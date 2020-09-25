@@ -7,5 +7,5 @@ open Tour.Functions
 let main argv =
     printfn "Hello World from F#!"
 
-    printfn "%d" BasicFunctions.result1
+    BasicFunctions.result1
     0 // return an integer exit code
