@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Tour\Classes.fs" />
     <Compile Include="Tour\UnitsOfMeasure.fs" />
     <Compile Include="Tour\Unions.fs" />
     <Compile Include="Tour\TuplesRecords.fs" />
