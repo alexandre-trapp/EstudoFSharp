@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Primitives.fs" />
+    <Compile Include="Tour\Collections.fs" />
+    <Compile Include="Tour\Primitives.fs" />
     <Compile Include="Tour\Functions.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
