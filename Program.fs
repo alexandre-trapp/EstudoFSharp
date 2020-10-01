@@ -2,6 +2,7 @@
 
 open Tour.Functions
 open Tour.Collections
+open Tour.TuplesRecords
 
 [<EntryPoint>]
 let main argv =
@@ -10,5 +11,7 @@ let main argv =
     BasicFunctions.result1
 
     Lists.sumOfSquares
+
+    Tuples.tuple1
     0 // return an integer exit code
 
