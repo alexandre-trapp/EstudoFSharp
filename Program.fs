@@ -5,6 +5,7 @@ open Tour.Classes
 open Tour.Functions
 open Tour.Collections
 open Tour.TuplesRecords
+open AsyncExample.NetCompatibilityExamples
 
 [<EntryPoint>]
 let main argv =
@@ -24,6 +25,10 @@ let main argv =
 
     let readFile = new ReadFile("ronaldos path \n")
     readFile.ReadLine()
-    
+
+    AsyncExample.fetchUrlAsync
+    AsyncExample.sites
+
+    MyButton().TestEvent("ronaldo")
     0 // return an integer exit code
 
